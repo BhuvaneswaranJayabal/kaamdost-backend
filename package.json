@@ -1,0 +1,19 @@
+{
+  "name": "kaamdost-backend",
+  "version": "1.0.0",
+  "description": "KaamDost AI Backend — Proxy server for Claude API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "author": "KaamDost",
+  "license": "MIT"
+}
